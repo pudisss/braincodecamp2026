@@ -1,0 +1,88 @@
+{
+  "code": "db0fffbc32f637c9e5fb160607c51736c2cbc6fd15d56e8ae27653f877908f9b",
+  "config": {
+    "action_start": 1.0,
+    "action_stop": 3.5,
+    "artifact_mad_z": 4.0,
+    "artifact_policy": "robust_trial",
+    "author_feature_dir": null,
+    "channel_counts": [
+      128,
+      64,
+      32,
+      16
+    ],
+    "cnn_hidden": 128,
+    "cnn_widths": [
+      32,
+      64
+    ],
+    "data_root": "/kaggle/input/datasets/truthisneverlinear/inner-speech-recognition/inner-speech-recognition/derivatives",
+    "deep_batch_size": 16,
+    "deep_epochs": 60,
+    "deep_lr": 0.001,
+    "deep_models": [],
+    "deep_patience": 12,
+    "deep_validation_fraction": 0.15,
+    "expected_sfreq": 256.0,
+    "feature_backend": "documented_152",
+    "image_outer_folds": 5,
+    "image_pretrained": false,
+    "image_size": 224,
+    "inner_folds": 3,
+    "k_features": 590,
+    "manual_artifact_channels": {},
+    "ml_models": [
+      "svm"
+    ],
+    "mrmr_corr_floor": 1e-06,
+    "mrmr_relevance": "mi",
+    "n_jobs": 2,
+    "outer_folds": 5,
+    "output_root": "/kaggle/working/paper_methods",
+    "resume": true,
+    "seeds": [
+      42
+    ],
+    "selection_scope": "fold",
+    "spectral_high": 100.0,
+    "subject_ids": null,
+    "tuning": "fixed",
+    "vmd_alpha": 2000.0,
+    "vmd_dc": 0,
+    "vmd_init": 1,
+    "vmd_k": 6,
+    "vmd_scope": "full_epoch",
+    "vmd_tau": 0.0,
+    "vmd_tol": 1e-07,
+    "wavelet": "db4",
+    "wavelet_level": 5
+  },
+  "method": "paper-methods-1.0",
+  "subjects": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "versions": {
+    "PyWavelets": "1.9.0",
+    "cloudpickle": "3.1.2",
+    "joblib": "1.5.3",
+    "lightgbm": "4.6.0",
+    "mne": "1.12.1",
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.16.3",
+    "torch": "2.10.0+cu128",
+    "torchvision": "0.25.0+cu128",
+    "vmdpy": "0.2"
+  }
+}

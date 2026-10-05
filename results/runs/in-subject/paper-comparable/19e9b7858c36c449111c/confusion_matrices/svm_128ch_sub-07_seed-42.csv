@@ -1,0 +1,5 @@
+Up,Down,Right,Left,true_class
+16,19,12,13,Up
+20,13,11,16,Down
+15,14,18,13,Right
+18,19,11,12,Left

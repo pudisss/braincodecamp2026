@@ -1,0 +1,38 @@
+[
+  {
+    "eeg_file": "/kaggle/input/datasets/truthisneverlinear/inner-speech-recognition/inner-speech-recognition/derivatives/sub-01/ses-01/sub-01_ses-01_eeg-epo.fif",
+    "eeg_sha256": "e50ad5855b79995e18af313afa75ada2dc947768b1e0c85fef71aa4e02b65946",
+    "epoch_tmax": 4.0,
+    "epoch_tmin": -0.5,
+    "event_file": "/kaggle/input/datasets/truthisneverlinear/inner-speech-recognition/inner-speech-recognition/derivatives/sub-01/ses-01/sub-01_ses-01_events.dat",
+    "event_sha256": "bc8b6e02b45347903a2da87b327539eefe528e663f4dc22d73417fe0ce61da00",
+    "highpass": 0.5,
+    "lowpass": 100.0,
+    "n_inner_trials": 80,
+    "sfreq": 256.0
+  },
+  {
+    "eeg_file": "/kaggle/input/datasets/truthisneverlinear/inner-speech-recognition/inner-speech-recognition/derivatives/sub-01/ses-02/sub-01_ses-02_eeg-epo.fif",
+    "eeg_sha256": "08f54d2658d6278edbcf841c9374cf22b27ceb7614a295e42e84ecd5d414b11a",
+    "epoch_tmax": 4.0,
+    "epoch_tmin": -0.5,
+    "event_file": "/kaggle/input/datasets/truthisneverlinear/inner-speech-recognition/inner-speech-recognition/derivatives/sub-01/ses-02/sub-01_ses-02_events.dat",
+    "event_sha256": "b99db3affbeca9ee8e4c8b08e77abc059f218aadbf88d9b36414693a0e682ec9",
+    "highpass": 0.5,
+    "lowpass": 100.0,
+    "n_inner_trials": 80,
+    "sfreq": 256.0
+  },
+  {
+    "eeg_file": "/kaggle/input/datasets/truthisneverlinear/inner-speech-recognition/inner-speech-recognition/derivatives/sub-01/ses-03/sub-01_ses-03_eeg-epo.fif",
+    "eeg_sha256": "df195d0703b6b29d377929435bd0f62821a874604c251569fff8aad1cb06e55b",
+    "epoch_tmax": 4.0,
+    "epoch_tmin": -0.5,
+    "event_file": "/kaggle/input/datasets/truthisneverlinear/inner-speech-recognition/inner-speech-recognition/derivatives/sub-01/ses-03/sub-01_ses-03_events.dat",
+    "event_sha256": "86ee4b8d474f86786e4169aeba0077a1f90775ebf69177b610567b60404b3c43",
+    "highpass": 0.5,
+    "lowpass": 100.0,
+    "n_inner_trials": 40,
+    "sfreq": 256.0
+  }
+]

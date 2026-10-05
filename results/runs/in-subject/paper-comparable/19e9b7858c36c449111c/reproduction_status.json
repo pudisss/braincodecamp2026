@@ -1,0 +1,13 @@
+{
+  "exact_reproduction": false,
+  "feature_backend": "documented_152",
+  "note": "Author feature archives do not by themselves resolve training/preprocessing ambiguity.",
+  "unresolved": [
+    "Supplementary T1-T3: exact definitions of all 191 features, wavelets and levels",
+    "Artifact channel identities/detection thresholds and VMD alpha/tau/DC/init/tolerance",
+    "MRMR library, relevance estimator and placement relative to cross-validation",
+    "Classifier hyperparameters, original folds/seeds and multiclass F1 averaging",
+    "Supplementary S2: CNN widths; optimizer, epochs and image-rendering settings",
+    "Ensemble description calls it stacking but specifies soft probability voting"
+  ]
+}
