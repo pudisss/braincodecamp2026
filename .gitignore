@@ -1,0 +1,44 @@
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+
+# Local environments and credentials
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Build and editor files
+build/
+dist/
+*.egg-info/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated data, experiment outputs, and local backups
+/configs/
+/results/
+/presentations/
+/.local-backups/
+*.zip
+*.npy
+*.npz
+*.fif
+*.edf
+*.set
+*.pt
+*.pth
+*.ckpt
+
+# Duplicate copy of the notebook with the .ipynb extension
+/paper-reproduce
